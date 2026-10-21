@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Streamlit and IDE files
+.streamlit/secrets.toml
+.vscode/
+.idea/
+
+# Generated files and operating-system clutter
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+outputs/
+
+# Local artwork excluded from the public repository
+DALL.png
+background.png
+background1.png
+logo2.png
